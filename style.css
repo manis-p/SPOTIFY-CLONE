@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:ital,wght@1,500&display=swap');
+
+body {
+
+   
+    background-color: #1a1819;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+font-family: 'Roboto',sans-serif;
+background-color: black;
+color: white;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 45px;
+}
+nav ul li{
+    padding: 0 10px;
+}
+
+.brand img{
+    padding: 0 8px;
+    width: 46px;
+
+}
+.container{
+
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 25px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 20px;
+    background-image: url("back.jpg");
+      background-repeat: no-repeat;
+     background-size: 100%;
+    align-items: right;
+    
+   
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+
+   .icons{
+        margin: 20px 0;
+    }
+
+    .icons i{
+        cursor:pointer;
+    pointer-events: auto;
+    }
+    
+}
+#mySong{
+    width:80vw;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.songItem{
+ height: 30px;
+ display: flex;
+ background-color: white;
+ width: 100%;
+ color: black;
+ margin: 12px 0;
+ align-items: center;
+ border-radius: 34px;
+}
+
+.songItem img{
+width: 25px;
+margin:0 15px;
+border-radius: 20px;
+}
+
+.timePlay{
+    margin: 0 12px;
+   
+    
+}
+.timePlay i{
+    cursor:pointer;
+    pointer-events: auto;
+}
+.songHello{
+    margin-top: 25px;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Roboto',sans-serif;
+    
+}
+#songDes{
+    margin-left: 12px;
+    }
+    .songInfo img{
+  opacity: 0;
+  transition:opacity 1s ease-in;
+    }
+    .helloMn{
+        justify-content:flex-start;
+    }
